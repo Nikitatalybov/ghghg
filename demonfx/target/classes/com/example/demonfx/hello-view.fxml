@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="643.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demonfx.ControllerGhoul">
+   <children>
+      <ImageView fitHeight="559.0" fitWidth="652.0" layoutX="-4.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/ghoul.gif" />
+         </image>
+      </ImageView>
+      <Label fx:id="Arcane" layoutX="47.0" layoutY="37.0" prefHeight="145.0" prefWidth="553.0" style="-fx-background-color: pink;" text="       ArcanePudgeDrop" textAlignment="CENTER" textFill="#cd0505">
+         <font>
+            <Font size="49.0" />
+         </font>
+      </Label>
+      <Button fx:id="addRegistrationButton" layoutX="396.0" layoutY="282.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="113.0" style="-fx-background-color: pink;" text="Регистраця" textFill="#e40c0c" />
+      <Button fx:id="addEnterButton" layoutX="139.0" layoutY="282.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="113.0" style="-fx-background-color: pink;" text="Вход" textFill="#00c3ff" />
+      <Button fx:id="addPasswordButton" layoutX="139.0" layoutY="437.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="370.0" style="-fx-background-color: pink;" text="забыли пароль1000-7? " textFill="#004eff" />
+   </children>
+</AnchorPane>
